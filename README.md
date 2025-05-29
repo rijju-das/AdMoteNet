@@ -12,7 +12,7 @@ A PyTorch‐based multimodal model that classifies sentiments in billboard image
    ```bash
    git clone https://github.com/yourusername/LLMBillboardSentiment.git
    cd LLMBillboardSentiment
-````
+   ```
 
 2. **Create & activate** a virtual environment (optional but recommended):
 
