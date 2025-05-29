@@ -31,7 +31,7 @@ A PyTorch‐based multimodal model that classifies sentiments in billboard image
 ├── requirements.txt     # pip dependencies
 └── README.md            # this file
 
-````
+```
 
 ---
 
