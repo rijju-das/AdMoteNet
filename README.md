@@ -27,10 +27,6 @@ A PyTorch‐based multimodal model that classifies sentiments in billboard image
    pip install -r requirements.txt
    ```
 
-   Key packages: `torch>=1.9`, `transformers`, `timm`, `scikit-learn`, `pandas`, `matplotlib`, `Pillow`.
-
----
-
 ## 🗂️ Data Preprocessing
 
 1. **Image transforms** (in `train.py` / `eval.py`):
