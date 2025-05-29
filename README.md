@@ -109,7 +109,7 @@ Key flags:
 
 ---
 
-## 🔍 Evaluation
+## Evaluation
 
 ```bash
 python code/eval.py \
