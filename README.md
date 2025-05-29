@@ -6,7 +6,7 @@ A PyTorch‐based multimodal model that classifies sentiments in billboard image
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 1. **Clone** this repo:
    ```bash
@@ -27,7 +27,7 @@ A PyTorch‐based multimodal model that classifies sentiments in billboard image
    pip install -r requirements.txt
    ```
 
-## 🗂️ Data Preprocessing
+## Data Preprocessing
 
 1. **Image transforms** (in `train.py` / `eval.py`):
 
@@ -52,12 +52,8 @@ A PyTorch‐based multimodal model that classifies sentiments in billboard image
    * `data/features/sentiments/Sentiments.json`: maps each image filename to nested lists of sentiment‐ID strings.
    * `data/features/sentiments/Sentiments_List_updated.txt`: human‐readable mapping from ID → “Sentiment Name”.
 
-4. **MultiLabelBinarizer**
-   A 30‐class binarizer is fit on IDs `1…30` to produce multi‐hot target vectors for each sample.
 
----
-
-## 🏗️ Model Architecture
+## Model Architecture
 
 * **Vision Encoder**
 
@@ -136,7 +132,7 @@ Generates:
 
 ---
 
-## 📈 Visualization
+## Visualization
 
 Use `code/visualize.py` to produce:
 
@@ -156,7 +152,7 @@ python code/visualize.py \
 
 ---
 
-## 📋 License & Citation
+## Citation
 
 This code is released under the MIT License.
 If you use it in your research, please cite:
@@ -164,9 +160,3 @@ If you use it in your research, please cite:
 > **Your Name**, “Multimodal Billboard Sentiment Classification with ViT & BERT,” *GitHub*, 2025.
 > [https://github.com/yourusername/LLMBillboardSentiment](https://github.com/yourusername/LLMBillboardSentiment)
 
----
-
-## 🙋‍♂️ Contact
-
-Questions or suggestions? Open an issue or contact `your.email@example.com`.
-Happy multimodal modeling!
