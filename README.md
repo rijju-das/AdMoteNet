@@ -1,37 +1,8 @@
-```markdown
+
 # Multimodal Billboard Sentiment Classifier
 
 A PyTorch‐based multimodal model that classifies sentiments in billboard images by combining visual features (Vision Transformer) with textual features (BERT on extracted captions & object lists).
 
----
-
-## 📁 Repository Structure
-
-```
-
-├── data/
-│   ├── dataset\_train\_test/
-│   │   ├── train/…        # training images
-│   │   └── test/…         # test images
-│   ├── features/
-│   │   ├── text-extract/  # JSON dumps of OCR’d captions
-│   │   ├── object-extract/# JSON dumps of detected objects
-│   │   └── sentiments/
-│   │       ├── Sentiments.json        # image→\[\[labelIDs]] map
-│   │       └── Sentiments\_List\_updated.txt  # ID→“Sentiment Name” map
-├── code/
-│   ├── model/
-│   │   └── multimodal\_model\_senti.pt  # pretrained checkpoint
-│   ├── train.py         # training & validation loop
-│   ├── eval.py          # test‐time evaluation & CSV exporter
-│   └── visualize.py     # ROC, confusion‐matrix, F1‐bar plots
-├── output/
-│   ├── sentiment\_predictions\_\*.csv  # true/pred labels & confidences
-│   └── \*.pdf            # generated figures
-├── requirements.txt     # pip dependencies
-└── README.md            # this file
-
-```
 
 ---
 
