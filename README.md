@@ -1,5 +1,5 @@
 
-# Multimodal Billboard Sentiment Classifier
+# AdMoteNet - Adaptive Multimodal Network for Understanding  Image with Emotional Contexts
 
 A PyTorch‐based multimodal model that classifies sentiments in billboard images by combining visual features (Vision Transformer) with textual features (BERT on extracted captions & object lists).
 
