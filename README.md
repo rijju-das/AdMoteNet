@@ -86,7 +86,7 @@ A PyTorch‐based multimodal model that classifies sentiments in billboard image
 
 ---
 
-## ⚙️ Training
+## Training
 
 ```bash
 python code/train.py \
