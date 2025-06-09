@@ -149,14 +149,3 @@ python code/visualize.py \
   --sentiment_list data/features/sentiments/Sentiments_List_updated.txt \
   --log_file train_logs/trainepochoutput.out
 ```
-
----
-
-## Citation
-
-This code is released under the MIT License.
-If you use it in your research, please cite:
-
-> **Your Name**, “Multimodal Billboard Sentiment Classification with ViT & BERT,” *GitHub*, 2025.
-> [https://github.com/yourusername/LLMBillboardSentiment](https://github.com/yourusername/LLMBillboardSentiment)
-
